@@ -12,6 +12,12 @@ int main(){
             }
         }
     }
-    cout<<s;
+    cout<<"la suma de los numeros los cuales estan ubicados por encima de la diagonal principal es: "<<s<<endl;
+     for(int i=0;i<n;i++){
+        for(int j=0;j<n;j++){
+            cout<<matriz[i][j];
+        }
+        cout<<"\n";
+     }
     return 0;
 }
